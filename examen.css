@@ -1,0 +1,1065 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.barraMenu {
+    background-color: white;
+    width: 100%;
+    height: 8%;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    background-colo: cadetblue;
+    width: 40px;
+    height: 100%;
+
+
+}
+
+.caja1 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+
+
+}
+
+.vacio {
+    background-colo: blueviolet;
+    width: 15px;
+    height: 100%;
+
+}
+
+.buscador {
+
+    background-color: #e9e9e9;
+    width: 55%;
+    height: 40px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 5;
+
+
+}
+
+.icono {
+    background-colo: bisque;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    background-colo: blueviolet;
+}
+
+
+input {
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    background-color: #f2f3f400;
+    width: 480px;
+    height: 40px;
+    font-size: 15px;
+
+}
+
+.buscador:hover {
+    background-color: #E5E7E9;
+}
+
+input:hover {
+    background-color: #E5E7E9;
+    display: flex;
+    align-items: center;
+
+}
+
+.BusquedaVisual {
+    padding-left: 8px;
+
+}
+
+.caja2 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-colo: blueviolet;
+
+}
+
+.uno {
+    color: #808B96;
+    width: 130px;
+    background-colo: cornflowerblue;
+    text-align: center;
+}
+
+.uno:hover {
+    color: black;
+}
+
+
+.dos {
+    color: #808B96;
+    width: 150px;
+    background-colo: cornflowerblue;
+    text-align: center;
+}
+
+.dos:hover {
+    color: black;
+}
+
+.tres {
+    width: 150px;
+    background-colo: cornflowerblue;
+    text-align: center;
+}
+.co > a {
+    color: black;
+}
+
+.cajaLinea {
+    width: 35px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineaVertical {
+    width: 1px;
+    text-align: center;
+    background-color: #bbbbbb;
+    height: 30px;
+
+}
+
+.caja3 {
+    background-colo: brown;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+
+}
+
+.cuatro {
+    width: 120px;
+    background-colo: cornflowerblue;
+    color: #808B96;
+    font-size: 15px;
+
+}
+
+.cuatro:hover {
+    color: black;
+}
+
+
+
+.cinco {
+    font-size: 15px;
+    border: 2px solid #d5d7da;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-colo: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #808B96;
+}
+
+.cinco:hover {
+    border: 2px solid #808B96;
+    color: black;
+}
+
+.lineas {
+    background-colo: aqua;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja4 {
+    color: #808B96;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+
+.contenedor0 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.xl {
+    width: 250px;
+    height: 30px;
+    background-colo: #1881eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hola {
+    font-size: 10px;
+}
+
+.editorial {
+    color: black;
+}
+
+.texto:hover {
+    color: black;
+}
+
+.linea2 {
+    background-colo: #338fec;
+    width: 25px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.linea-vert {
+
+    background-color: #c6c8ca;
+    height: 30px;
+    width: 1px;
+}
+
+.cajap {
+    width: 150px;
+    height: 100%;
+
+    justify-content: space-between;
+    background-colo: #2a68a5;
+}
+
+.caja5 {
+    width: 60%;
+    background-colo: blueviolet;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #808B96;
+
+}
+
+.move {
+    display: flex;
+    
+}
+
+
+.b {
+    width: 115px;
+
+
+}
+
+.b {
+    width: 100px;
+}
+
+.c {
+    width: 100px;
+}
+
+.d {
+    width: 100px;
+}
+
+.e {
+    width: 80px;
+}
+
+.f {
+    width: 180px;
+}
+
+.g {
+    width: 150px;
+}
+
+.h {
+    width: 200px;
+}
+
+.i {
+    width: 100px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #bbbbbb;
+}
+a:hover {
+    color: black;
+}
+
+.b:hover {
+    color: black;
+}
+
+.c:hover {
+    color: black;
+}
+
+.d:hover {
+    color: black;
+}
+
+.e:hover {
+    color: black;
+}
+
+.f:hover {
+    color: black;
+}
+
+.g:hover {
+    color: black;
+}
+
+.h:hover {
+    color: black;
+}
+
+.contenedor {
+
+    background-colr: rgb(49, 49, 216);
+    width: 100%;
+    height: 102px;
+
+
+
+
+}
+
+.inicio {
+    background-colo: rgb(36, 216, 96);
+
+    width: 100%;
+    height: 400px;
+    padding: 40px 15px 40px 15px;
+
+
+
+}
+
+.contenedor5 {
+    width: 100%;
+    height: 100%;
+    background-colo: #1881eb;
+    display: flex;
+
+
+}
+
+.box1 {
+    background-colo: rgb(184, 195, 216);
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+
+
+}
+
+.texto1 {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-colo: #2a68a5;
+    width: 100%;
+    height: 250px;
+    padding: 0px 20px 0px 10px
+}
+
+.box2 {
+    background-color: rgba(51, 190, 197, 0.747);
+    width: 50%;
+    height: 300px;
+    border-radius: 15px;
+    border: 1px solid #edf0f0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 10px;
+    background-image: url(./imagenes/fondo-hojas-vector-arte-floral-abstracto-moderno_559819-80.avif);
+
+
+}
+
+.N {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.azul {
+    color: rgb(35, 135, 228);
+}
+
+.letra1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+    background-colo: #2a68a5;
+    width: 300px;
+    height: 100px;
+}
+
+.imagen {
+    background-colo: #2a68a5;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+    color: #808B96;
+}
+
+
+
+
+
+.img {
+    border-radius: 15px;
+}
+
+
+
+h1 {
+    font-size: 40px;
+}
+
+.respaldo {
+    background-color: #e2e2e2;
+    width: 48%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+}
+
+
+.respaldo:hover {
+    background-color: rgb(253, 251, 251);
+}
+
+.bus {
+    width: 100%;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.bu {
+    background-colo: rgba(204, 50, 50, 0.521);
+    width: 85%;
+    height: 50px;
+    padding-right: 10px;
+
+
+}
+
+.bus:hover {
+    background-color: #dddcdc;
+}
+
+.bu:hover {
+    background-color: rgba(205, 207, 207, 0);
+}
+
+.plus {
+    background-colo: #1c81e6;
+    width: 100%;
+    height: 4000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+
+
+}
+.container01 {
+    background-color: #08da3d;
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    
+}
+.container01 figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.container01 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.container01 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: end;
+    padding: 20px 20px;
+
+}
+.container01 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background: #93939a50;
+
+}
+
+button {
+    width: 50px;
+    height: 30px;
+   
+    
+    
+ 
+}
+.abajo {
+    margin-top: 750px;
+    
+}
+.corazon {
+    width: 45px;
+    height: 25px;
+    background-colo: #ced2da;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.pe {
+    width: 15px;
+    height: 15px;
+}
+.mas {
+    width: 45px;
+    height: 25px;
+    background-colo: #ced2da;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.maspe {
+    width: 15px;
+    height: 15px;
+}
+.temas1  {
+    background-colo: #da6d08;
+    width: 31%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.temas1 figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.temas1 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.temas1 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: end;
+    padding: 20px 20px;
+   
+
+}
+.temas1 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background: #93939a27;
+
+}
+
+.temas2 {
+    background-colo: #08da3d;
+    width: 31%;
+    height: 300px;
+    
+
+
+}
+.temas2 figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.temas2 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.temas2 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: end;
+    padding: 20px 20px;
+
+}
+.temas2 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background: #93939a27;
+
+
+}
+
+.temas3 {
+    background-colo: #da08ad;
+    width: 34%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.temas3 figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.temas3 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.temas3 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: end;
+    padding: 20px 20px;
+
+}
+.temas3 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background: #93939a44;
+
+}
+
+.temas4 {
+    background-colo: #dacc08;
+    width: 31%;
+    height: 850px;
+    margin-top: -330px;
+    display: flex;
+    justify-content: center;
+    
+}
+.temas4 figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.temas4 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.temas4 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: end;
+    padding: 20px 20px;
+
+}
+.temas4 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background: #93939a41;
+
+}
+
+
+.temas5 {
+    background-colo: #da0808;
+    width: 31%;
+    height: 350px;
+    margin-top: -330px;
+    display: flex;
+    justify-content: center;
+
+}
+.temas5 figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.temas5 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.temas5 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: end;
+    padding: 20px 20px;
+
+}
+.temas5 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background: #93939a4b;
+
+}
+
+.temas6 {
+    background-colo: #08dad0;
+    width: 34%;
+    height: 350px;
+    margin-top: 25px;
+}
+.temas6 figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.temas6 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.temas6 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: end;
+    padding: 20px 20px;
+
+}
+.temas6 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background: #93939a5d;
+
+}
+
+.temas7 {
+    background-colo: #08dad0;
+    width: 31%;
+    height: 350px;
+    margin-top: -180px;
+}
+.temas7 figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.temas7 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.temas7 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: end;
+    padding: 20px 20px;
+
+}
+.temas7 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background: #93939a5d;
+
+}
+
+
+
+.temas8 {
+    background-colo: #08dad0;
+    width: 31%;
+    height: 800px;
+    margin-top: -680px;
+}
+.temas8 figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.temas8 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.temas8 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: end;
+    padding: 20px 20px;
+
+}
+.temas8 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background: #93939a5d;
+
+}
+.temas9 {
+    background-colo: #08dad0;
+    width: 34%;
+    height: 280px;
+    margin-top: 20px;
+}
+.temas9 figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.temas9 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.temas9 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: end;
+    padding: 20px 20px;
+
+}
+.temas9 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background: #93939a5d;
+
+}
+.temas10 {
+    background-colo: #08dad0;
+    width: 31%;
+    height: 480px;
+    margin-top: -180px;
+}
+.temas10 figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.temas10 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.temas10 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: end;
+    padding: 20px 20px;
+
+}
+.temas10 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background: #93939a5d;
+
+}
+.temas11 {
+    background-colo: #08dad0;
+    width: 31%;
+    height: 520px;
+    margin-top: -230px;
+    
+}
+.temas11 figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.temas11 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.temas11 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: end;
+    padding: 20px 20px;
+
+}
+.temas11 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background: #93939a5d;
+
+}
+
